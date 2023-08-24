@@ -1,0 +1,5 @@
+import random
+from numpy.random import default_rng
+rng = default_rng()
+aleatorio = rng.integers(10, size=(5,5))
+print(aleatorio)
